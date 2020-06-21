@@ -1,6 +1,8 @@
 package test;
 
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -21,12 +23,14 @@ public class FusionBankingLoginTest {
 		
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 	}
 	@Test
 	public void loginTest() throws InterruptedException{
 		
-		driver.get("http://blrcswcombk0035:8088/uxp/rt/html/login.html");
+		driver.get("http://blrcslcombk0038:6080/uxp/rt/html/login.html");
+		
 		FusionBankingLogin obj = new FusionBankingLogin(driver);
 		obj.input_Username("teller13");
 		obj.input_Password("welcome@99");

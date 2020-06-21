@@ -6,10 +6,10 @@
 			<class name="utils.ExcelUtilsTest">
 				<methods>
 					<include name="run"></include>
-
-					
 				</methods>
 			</class>
+			<class name="test.FusionBankingLoginTest"></class>
+			<class name="SeleniumJavaFramework.BrowserTest"></class>
 
 		</classes>
 	</test> <!-- Test -->
