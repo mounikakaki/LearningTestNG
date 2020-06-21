@@ -2,30 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15333" started-at="2020-06-21T11:48:11 IST" finished-at="2020-06-21T11:48:27 IST">
+  <suite name="Suite" duration-ms="15594" started-at="2020-06-21T13:43:14 IST" finished-at="2020-06-21T13:43:30 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="15333" started-at="2020-06-21T11:48:11 IST" finished-at="2020-06-21T11:48:27 IST">
+    <test name="Test1" duration-ms="1871" started-at="2020-06-21T13:43:14 IST" finished-at="2020-06-21T13:43:16 IST">
       <class name="utils.ExcelUtilsTest">
-        <test-method status="PASS" signature="run()[pri:0, instance:utils.ExcelUtilsTest@6737fd8f]" name="run" duration-ms="1362" started-at="2020-06-21T11:48:18 IST" finished-at="2020-06-21T11:48:20 IST">
+        <test-method status="PASS" signature="run()[pri:0, instance:utils.ExcelUtilsTest@2758fe70]" name="run" duration-ms="1810" started-at="2020-06-21T13:43:14 IST" finished-at="2020-06-21T13:43:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
       </class> <!-- utils.ExcelUtilsTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="13609" started-at="2020-06-21T13:43:16 IST" finished-at="2020-06-21T13:43:30 IST">
       <class name="test.FusionBankingLoginTest">
-        <test-method status="PASS" signature="testSetUp()[pri:0, instance:test.FusionBankingLoginTest@1efed156]" name="testSetUp" is-config="true" duration-ms="7129" started-at="2020-06-21T11:48:11 IST" finished-at="2020-06-21T11:48:18 IST">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:test.FusionBankingLoginTest@10bbd20a]" name="testSetUp" is-config="true" duration-ms="5582" started-at="2020-06-21T13:43:16 IST" finished-at="2020-06-21T13:43:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:test.FusionBankingLoginTest@1efed156]" name="loginTest" duration-ms="5194" started-at="2020-06-21T11:48:20 IST" finished-at="2020-06-21T11:48:25 IST">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:test.FusionBankingLoginTest@10bbd20a]" name="loginTest" duration-ms="5028" started-at="2020-06-21T13:43:22 IST" finished-at="2020-06-21T13:43:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDowntest()[pri:0, instance:test.FusionBankingLoginTest@1efed156]" name="tearDowntest" is-config="true" duration-ms="1612" started-at="2020-06-21T11:48:25 IST" finished-at="2020-06-21T11:48:27 IST">
+        <test-method status="PASS" signature="tearDowntest()[pri:0, instance:test.FusionBankingLoginTest@10bbd20a]" name="tearDowntest" is-config="true" duration-ms="2996" started-at="2020-06-21T13:43:27 IST" finished-at="2020-06-21T13:43:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDowntest -->
       </class> <!-- test.FusionBankingLoginTest -->
-    </test> <!-- Test -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="1" started-at="2020-06-21T13:43:30 IST" finished-at="2020-06-21T13:43:30 IST">
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>
